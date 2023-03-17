@@ -8,6 +8,9 @@
   @version V1.0
   @date 2020-5-27
   @url https://github.com/DFRobot/DFRobot_Ozone
+  @date 2023-3-17  
+  @changed to work on rasp pico
+  @author atsc_sensors 
 '''
 
 import time
