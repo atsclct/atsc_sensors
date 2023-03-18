@@ -10,7 +10,7 @@
 '''
 import time, smbus
 
-from gas_gmxx import *
+from gas_gmxx_pi import *
 
 I2C_BUS          = 0x01            # default use I2C1
 
