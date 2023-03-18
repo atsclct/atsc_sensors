@@ -192,20 +192,20 @@ class GAS_GMXXX:
     def getNO2ppm(temp, humidity):
       no2_u = self.calc_vol(self.get_gm102b())
       no2_corr = u_corr_rh(no2_u, temp, humidity, self.gm102b_rh_offset, 7)
-      return u2ppm(no2_corr, self.gm102b_u2gas, 12)
+      return no2_corr
 
     def getC2H5OHppm(temp, humidity):
       c2h5oh_u = self.calc_vol(self.get_gm302b())
       c2h5oh_corr = u_corr_rh(c2h5oh_u, temp, humidity, self.gm302b_rh_offset, 13)
-      return u2ppm(c2h5oh_corr, self.gm302b_u2gas, 11)
+      return c2h5oh_corr
 
     def getVOCppm( temp, humidity):
       voc_u = self.calc_vol(self.get_gm502b())
       voc_corr = u_corr_rh(voc_u, temp, humidity, self.gm502b_rh_offset, 13)
-      return u2ppm(voc_corr, self.gm502b_u2gas, 9)
+      return voc_corr
 
     def getCOppm( temp, humidity):
       co_u = self.calc_vol(get_gm702b())
       co_corr = u_corr_rh(co_u, temp, humidity, self.gm702b_rh_offset, 7)
-      return u2ppm(co_corr, self.gm702b_u2gas, 9)
+      return co_corr
     
