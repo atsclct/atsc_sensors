@@ -11,4 +11,6 @@
 > * sdcard.py: sdcard driver
 > * ssd1306.py: oled driver
 
+Details of the project see wiki tab.
+
 ![](https://github.com/atsclct/atsc_sensors/blob/main/setup.jpeg)
