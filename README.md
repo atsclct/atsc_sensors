@@ -5,7 +5,7 @@
 > * xxx_pi.py: the driver code for raspberry pi instead of PICO 
 > * ozone.py: GROVE ozone sensor driver
 > * scd4x.py: SCD40/41 CO2/Temperature/Relative Humidity sensor driver
-> * gas_gmss.py: GROVE/GRAVITY multi gas sensor version 2 driver (CO VOC NO2 C2H5OH)
+> * gas_gmxx.py: GROVE/GRAVITY multi gas sensor version 2 driver (CO VOC NO2 C2H5OH)
 > * get_gps.py: GPS driver
 > * sds011.py: NOVA SDS011 PM25/PM10 sensor driver
 > * sdcard.py: sdcard driver
