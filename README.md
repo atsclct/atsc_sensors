@@ -10,3 +10,4 @@
 > * sds011.py: NOVA SDS011 PM25/PM10 sensor driver
 > * sdcard.py: sdcard driver
 > * ssd1306.py: oled driver
+![](https://github.com/atsclct/atsc_sensors/blob/main/setup.jpeg)
