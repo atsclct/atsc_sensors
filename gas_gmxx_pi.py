@@ -2,7 +2,7 @@
   @brief  implementation of underlying methods
   @copyright 
   @license The MIT License (MIT)
-  @author Chuntao Liu (chuntao.liu@tamucc.edu)
+  @author atsclct, brmmm3, elloza
   @version V1.0
   @date 2023-03-06
 '''
